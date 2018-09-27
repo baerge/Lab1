@@ -1,0 +1,35 @@
+html {
+    font-size: 16px;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande',
+   'Lucida Sans', Arial, sans-serif;
+    margin: 20px 40px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+ul{
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 50px;
+    border-bottom: 24px solid #0d033f;
+    color: #fff;
+    font-size: 2rem;
+    display:grid;
+    grid-gap: 10px;
+    list-style: none;
+    grid-template-columns:  repeat(3, 1fr);
+    }
+
+header{
+    min-height: 400px;
+    background: url('../img/img1.jpg') no-repeat;
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    display: block;  
+    text-align:left;
+    color:white;
+    font-size: 2rem; 
+ }
